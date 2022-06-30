@@ -1,1 +1,1 @@
-day by day
+Progress day by day
