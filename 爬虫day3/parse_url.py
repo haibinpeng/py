@@ -2,7 +2,7 @@
 # 2023年03月06日22时47分58秒
 
 import requests
-from retrying import retry
+from retrying import retry  # retrying是一个python的重试包，可以用来自动重试一些可能运行失败的程序段，retrying提供一个装饰器函数retry，被装饰的函数就会在运行失败的情况下重新执行
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36"
